@@ -28,8 +28,13 @@ public class TC001_LoginValidation extends BaseClass
 		{
 			logger.info("TC001_LoginValidation tC fail");
 			Assert.fail();
+			
+		}
+		finally {
+			logger.info("Execution completed");
 		}
 	}
+	
 	
 	
 }
